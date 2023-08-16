@@ -59,11 +59,3 @@ module.exports = {
     },
   },
 };
-
-
-async function main() {
-  const data = await fetch();
-  console.log(data.vaults);
-  console.log(data.syncswapWorkers);
-}
-main();
